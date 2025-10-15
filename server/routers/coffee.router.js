@@ -15,7 +15,7 @@ router.get('/:id', CoffeeController.getById);
 // Update a coffee by ID
 router.put('/:id', CoffeeController.update);
 
-// Delete a coffee by ID
+// Delete a coffee by ID..
 router.delete('/:id', CoffeeController.delete);
 
 export default router;
